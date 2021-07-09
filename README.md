@@ -473,7 +473,7 @@ via the `ENABLE_IRQ` parameter (see above).
 
 The PicoRV32 core has a built-in interrupt controller with 32 interrupt inputs. An
 interrupt can be triggered by asserting the corresponding bit in the `irq`
-input of the core.
+input of the core .
 
 When the interrupt handler is started, the `eoi` End Of Interrupt (EOI) signals
 for the handled interrupts go high. The `eoi` signals go low again when the
